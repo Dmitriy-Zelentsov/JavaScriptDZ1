@@ -9,3 +9,9 @@
 
 let temperatureCelsius = 28;
 console.log(`Температура по Цельсию ${temperatureCelsius} град.`);
+let temperatureFahrenheit = 9 / 5 * temperatureCelsius + 32;
+console.log(`Температура по Фаренгейту ${temperatureFahrenheit} град.`)
+
+const firstName = 'Dmitry';
+let admin = firstName;
+console.log(admin);
